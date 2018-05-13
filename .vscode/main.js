@@ -1,4 +1,6 @@
 var http = require("http");
+var express = require('express');
+
 http.createServer(function (request, response) {
     // Send the HTTP header 
     // HTTP Status: 200 : OK
@@ -13,3 +15,4 @@ http.createServer(function (request, response) {
  console.log('Server running at http://127.0.0.1:8081/'); 
  console.log('This is Node JS Program');
  console.log('checking run time execution');
+ console.log(express);
